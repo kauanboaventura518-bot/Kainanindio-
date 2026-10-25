@@ -1,0 +1,24 @@
+CHEAT KAINANINDIO — PROJETO ANDROID (DEMONSTRAÇÃO)
+
+O que contém:
+- App Android com botão flutuante lateral.
+- Painel preto/vermelho com interruptores demonstrativos, FOV e suavização.
+- Botão que tenta abrir o Free Fire instalado.
+- Nenhum controle modifica o jogo; não há injeção, leitura de memória ou vantagem real.
+
+COMO GERAR O APK PELO CELULAR (USANDO GITHUB)
+1. No navegador do celular, entre em https://github.com/ e crie/entre na sua conta.
+2. Crie um repositório novo. Pode chamar CheatKainanIndio; deixe-o como Private se preferir.
+3. Envie os arquivos e pastas deste projeto para o repositório, incluindo a pasta oculta .github/workflows e o arquivo gerar-apk.yml.
+4. Abra a aba Actions do repositório e escolha o fluxo “Gerar APK de demonstração”.
+5. Toque em Run workflow e confirme. Aguarde terminar; a primeira compilação pode demorar.
+6. Quando aparecer concluído com sucesso, abra a execução e baixe o artefato “CheatKainanIndio-demo-APK”.
+7. Extraia o ZIP baixado no celular. O APK estará dentro dele como app-debug.apk. Abra-o para instalar; talvez seja necessário permitir instalação pelo navegador/gerenciador de arquivos.
+
+Se o envio pelo navegador do celular não mostrar a opção para enviar pastas/arquivos ocultos, use o envio por GitHub web com os arquivos individuais ou peça ajuda para fazer o upload completo. O workflow precisa estar em .github/workflows/gerar-apk.yml para aparecer em Actions.
+
+IMPORTANTE
+- Este ZIP é código-fonte com automação de compilação, NÃO é um APK pronto.
+- A compilação ainda precisa ser executada no GitHub; não foi compilada nem testada aqui.
+- É apenas uma demonstração visual flutuante. Não possui aimbot real, ESP real ou integração que altere o Free Fire.
+- O app pode pedir permissão Android para “Exibir sobre outros apps”.
